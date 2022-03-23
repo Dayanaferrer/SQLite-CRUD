@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder msgBox = new AlertDialog.Builder(MainActivity.this);
         msgBox.setTitle("Excluir");
         msgBox.setIcon(android.R.drawable.ic_menu_delete);
-        msgBox.setMessage("!Você realmente deseja excluir esse registro?");
+        msgBox.setMessage("Atenção! Você realmente deseja excluir esse registro?");
         msgBox.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
